@@ -78,9 +78,11 @@ namespace Test_GUI
             //connect to BD and == encrypt pass, username
             connection.Open();
 
+            
+
             MySqlCommand cmd = connection.CreateCommand();
             cmd.CommandType = CommandType.Text;
-            cmd.CommandText = "SELECT * FROM `user` WHERE `username`= '" + textbox1.Text + "' AND `pass`= '" + cript_pass + "'";
+            cmd.CommandText = "SELECT * FROM `user` WHERE BINARY `username`= '" + textbox1.Text + "' AND `pass`= '" + cript_pass + "'";
             cmd.ExecuteNonQuery();
             DataTable dt = new DataTable();
             MySqlDataAdapter da = new MySqlDataAdapter(cmd);
