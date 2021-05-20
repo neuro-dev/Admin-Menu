@@ -139,7 +139,7 @@
         <Button x:Name="button2" Width="28" Height="28" Margin="270,70,0,0" Background="{x:Null}" Foreground="{x:Null}" BorderBrush="{x:Null}" Cursor="Hand" Click="button2_Click" ToolTip="Показать пароль"/>
 
         <TextBlock x:Name="textblock4" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,130,0,0" Text="Вы ввели неверный логин или пароль" FontSize="15" Foreground="Red" FontStretch="SemiCondensed" FontWeight="Bold" Visibility="Hidden" Width="285"/>
-        <Button x:Name="button1" HorizontalAlignment="Center" VerticalAlignment="Center" Content="Вход" Margin="0,205,0,0" Style="{StaticResource MaterialDesignFlatButton}" Background="#57F287" Foreground="Black" BorderBrush="{x:Null}" Click="button1_Click" IsDefault="True"/>
+        <Button x:Name="button1" HorizontalAlignment="Center" VerticalAlignment="Center" Content="Вход" Margin="0,190,0,0" Style="{StaticResource MaterialDesignFlatButton}" Background="#57F287" Foreground="Black" BorderBrush="{x:Null}" Click="button1_Click" IsDefault="True"/>
         <Border>
             <Grid x:Name="grid2" Background="#FF23272A" HorizontalAlignment="Center" VerticalAlignment="Center" Height="420" Width="790" Visibility="Hidden">
                 <Button x:Name="btnexit" Content="Выход" Background="#ED4245" Height="50" Width="132" VerticalAlignment="Bottom" HorizontalAlignment="Left" Click="btnexit_Click"/>
